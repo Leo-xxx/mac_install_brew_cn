@@ -8,11 +8,13 @@ Homebrew是 mac的包管理器，仅需执行相应的命令,就能下载安装�
 安装方法
 1、官方（不推荐）
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+
 2、其他（推荐）
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
- 验证
+
+验证
 brew -v,使用此命令，出现下面则说明安装成功
-haizhideMBP-78:~ haizhi$ brew -v
 
 Homebrew 3.3.6-40-g6e116ff
 
